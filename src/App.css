@@ -1,0 +1,42 @@
+.App {
+    font-family: 'Lato', sans-serif;
+
+  max-width: 800px;
+  margin: 5em auto;
+  padding: 20px;
+
+  border-radius: 5px;
+  text-align: center; 
+}
+
+h1 {
+  font-size: 24px; 
+  color: #1b07ce; 
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #080808;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+
+div.Result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #e7e5e5;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #fff; /* Use a white background for result div */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
